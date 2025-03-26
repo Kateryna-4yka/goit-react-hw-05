@@ -1,0 +1,22 @@
+.div {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(rgb(0, 83, 83), rgba(0, 0, 0, 0));
+    padding: 30px;
+}
+
+.link {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.397);
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.link:hover {
+    background-image: linear-gradient(rgb(0, 145, 145), rgba(0, 0, 0, 0));
+}
+
+.active {
+    background-image: linear-gradient(rgb(0, 148, 148), rgba(0, 0, 0, 0));
+}

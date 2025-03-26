@@ -1,0 +1,32 @@
+.form {
+    padding-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.397);
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: inherit;
+}
+
+.input:focus{
+    background: rgba(114, 228, 243, 0.226);
+}
+
+.btn {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.397);
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.btn:hover{
+    background-image: linear-gradient(rgb(0, 145, 145), rgba(0, 0, 0, 0));
+}
